@@ -1,0 +1,33 @@
+h1{
+    color:purple;
+}
+.card{
+    padding: 5px;
+    background-color: #e2e4e6;
+}
+.bg-nav{
+    background-color: rgba(0,0,0,.15);
+}
+body{
+    background-color:#026aa7;
+}
+.container{
+    margin: 5px;
+}
+.nav2{
+    color: white;
+    font-size: 1.5em;
+}
+.col-sm-4{
+    margin: 5px;
+}
+.card-text{
+    background-color: white;
+}
+.card-body{
+    padding:0px;
+}
+.card-text:hover{
+    background-color: grey;
+    cursor: grab;
+}

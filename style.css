@@ -1,33 +1,64 @@
-h1{
-    color:purple;
+.nav-link{
+    color:hsla(0,0%,100%,.7);
 }
 .card{
     padding: 5px;
     background-color: #e2e4e6;
+    height: auto;
 }
 .head{
     background-color: rgba(0,0,0,.15);
 }
 body{
-    background-color:#026aa7;
+    background-color:rgb(0, 121, 191);
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 .container{
     margin: 5px;
 }
 .nav2{
+    font-size: 1.3em;
     color: white;
-    font-size: 1.5em;
+    margin: 10px;
+    margin-left: 5px;
 }
 .col-sm-4{
     margin: 5px;
 }
 .card-text{
     background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.card-title{
+    color:#333;
+    margin-left: 5px;
+    font-size: 1em;
+    font-weight: bold;
 }
 .card-body{
     padding:0px;
+    margin: 5px;
+    margin-left: 0px;
 }
 .card-text:hover{
-    background-color: grey;
-    cursor: grab;
+    background-color: #edeff0;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    align-items: flex-start;
+ }
+ .card-link{
+    color:#8c8c8c;
+ }
+ .newlist{
+    color:hsla(0,0%,100%,.7);
+    margin: 5px;
+    padding: 10px 7px 10px 7px;
+}
+.newlist:hover{
+    background-color:rgba(0,0,0,.3);
 }
